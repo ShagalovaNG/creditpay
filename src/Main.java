@@ -4,16 +4,16 @@ public class Main {
 
         System.out.println();
         System.out.println("При сумме 1_000_000р. на 1 год");
-        System.out.println(service.calculate(1_000_000,12,9.99));
+        System.out.println(service.calculate(1_000_000, 12, 9.99));
 
         System.out.println();
         System.out.println("При сумме 1_000_000р. на 2 года");
-        System.out.println(service.calculate(1_000_000,24,9.99));
+        System.out.println(service.calculate(1_000_000, 24, 9.99));
 
         System.out.println();
         System.out.println("При сумме 1_000_000р. на 3 года");
-        System.out.println(service.calculate(1_000_000,36,9.99));
+        System.out.println(service.calculate(1_000_000, 36, 9.99));
 
 
     }
-        }
+}
